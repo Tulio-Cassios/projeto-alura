@@ -1,6 +1,15 @@
 git init  		inicializa versionamento dos arquivos para o git
+
 git status  	mostra o status dos arquivos
+
 git add  		adiciona os arquivos para verificação
+
 git commit  	checkpoint de alteração
-git config --global user.email ""
+
+git config --global user.email "" seta as variaveis no arquivos de configuração global do git
+
 git config --global user.name ""
+
+git config --local user.email "" salva no arquivo de configuração do repositório sem sobrescrever as variáveis globais
+
+git config --local user.name ""
