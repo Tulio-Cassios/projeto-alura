@@ -1,0 +1,6 @@
+git init  		inicializa versionamento dos arquivos para o git
+git status  	mostra o status dos arquivos
+git add  		adiciona os arquivos para verificação
+git commit  	checkpoint de alteração
+git config --global user.email ""
+git config --global user.name ""
