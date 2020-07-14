@@ -1,3 +1,6 @@
+https://rogerdudler.github.io/git-guide/index.pt_BR.html
+https://devhints.io/git-log
+
 git init  		inicializa versionamento dos arquivos para o git
 
 git status  	mostra o status dos arquivos
@@ -13,3 +16,9 @@ git config --global user.name ""
 git config --local user.email "" salva no arquivo de configuração do repositório sem sobrescrever as variáveis globais
 
 git config --local user.name ""
+
+git log
+
+git config
+
+.gitignore
