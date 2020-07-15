@@ -115,30 +115,36 @@ form {
 	margin: 40px 0;
 }
 
-form label, form legend {
+form label, form legend, fieldset {
 	display:block;
 	font-size: 20px;
-	margin: 5px 12px 10px;
-	padding-top: 10px;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 10px; 
 }
 
 .input-padrao {
 	display: block;
-	margin: 10px  12px;
-	padding: 5px 25px;
-	width: 50%;
+	width: 940px;
+	margin: 0  auto;
+	padding: 5px 1px;
+	
 }
 
 .select{
-	margin-left: 15px; 
+	margin: 0  auto; 
 }
 
-.checkbox {
-	margin: 20px 12px;
+.checkbox{
+	width: 940px;
+	margin: 0  auto;
 }
 
-.enviar {
-	width:40%;
+.enviar{
+	width: 300px;
+	display: block;
+	margin: 20px  auto;
 	padding: 15px 0;
 	background: orange;
 	color: white;
@@ -146,24 +152,26 @@ form label, form legend {
 	font-size: 18px;
 	border: none;
 	border-radius: 3px;
-	transition: 1s all;
+	transition: 1.5s all;
 	cursor: pointer;
-	margin-left: 12px;
+	
 }
 
 .enviar:hover {
-	background: darkorange;
-	transform: scale(1.05);
+	background: darkblue;
+	transform: scale(1.25);
 }
 
 .funcionamento{
 	font-size: 20px;
-	margin: 5px 12px 10px;
-
+	width: 940px;
+	margin: 0  auto 20px;
 }
+
 table {
-	margin: 20px 0 40px;
-	margin-left: 15px;
+	width: 940px;
+	margin: 0  auto 20px;
+	
 }
 
 thead {
@@ -173,6 +181,7 @@ thead {
 }
 
 td, th {
+	text-align: center;	
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
@@ -275,7 +284,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .contato-main{
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .contato-main, .titulo-contato, .paragrafo-contato{
 		width: auto;
 	}
 
@@ -298,9 +307,17 @@ td, th {
 		padding: 50px 0;
 	}
 
-	.contato-main{
-		display: block;
-		width: 300px;
-		padding: 50px 0;
+	.input-padrao{
+		text-align: center;
+		padding: 5px 20%;
+	}
+
+	.enviar{
+		margin-left: 27%;
+	}
+
+	table{
+		margin-left: 6em;
+
 	}
 }
